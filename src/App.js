@@ -29,7 +29,7 @@ const routes = [
 
 const App = () => {
   const [shortestPath, setShortestPath] = useState([]);           // List of airports on the path
-  const [distance, setDistance] = useState(0);                    // Number of airports on path
+  const [distance, setDistance] = useState(0);                    // Number of airports on the path
   const [startingAirport, setStart] = useState("DSM");            // Departure airport
   const [destinationAirport, setDestination] = useState("LGA");   // Arrival airport
 
